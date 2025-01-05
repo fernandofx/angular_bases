@@ -1,5 +1,9 @@
 
+console.log(words('Este es una prueba'))
 
-function saludar(nombre: string){
-    console.log(`Hola ${nombre}`)
+function words(text: string): number{
+
+    const words = text.split(' ')
+    console.log(words)
+    return words.length
 }
